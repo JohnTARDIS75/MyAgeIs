@@ -7,6 +7,8 @@ class Main {
 
   if(myBirthday == todaysDate){
     System.out.print("I am " + (myAge + 1) + " years old!");
-  } 
+  } else{
+    System.out.print("I am still" + myAge + "years old...");
   }
+}
 }
